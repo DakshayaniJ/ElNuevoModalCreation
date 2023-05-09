@@ -1,0 +1,275 @@
+html,
+body,
+img {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', 'Sans Serif';
+}
+
+.elnuevo_popup {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.elnuevo_modal {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.elnuevo_cerca_button {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 19px;
+    margin-top: 16.77px;
+    font-weight: bold;
+    color: #757575;
+    letter-spacing: 0.24px;
+    line-height: 26px;
+    width: 61px;
+    height: 22px;
+    font-family: 'Noto Sans', 'Sans Serif';
+}
+
+.elnuevoclose_button_link {
+    padding: 10px;
+    cursor: pointer;
+    color: #757575;
+    text-decoration: none;
+}
+
+.elnuevo_logo {
+    height: 30px;
+    width: 270.87px;
+    margin: 0 auto;
+    margin-top: 0px;
+    filter: brightness(0) invert(0);
+    padding-top: 25px;
+}
+
+.elnuevo_obtenga {
+    height: 27px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #262629;
+    margin-left: 55px;
+    padding-left: 25px;
+    padding-top: 33.870px;
+    opacity: 1;
+    font: normal normal normal 20px/28px Noto Sans;
+    padding-bottom: 13.46px;
+}
+
+.elnuevo_price {
+    margin-left: 52.5px;
+    letter-spacing: -1.12px;
+    color: #212B6B;
+    text-align: center;
+    font: normal normal bold 56px/26px Noto Sans;
+    opacity: 1;
+    height: 76px;
+    padding-top: 20px;
+    width: 395px;
+}
+
+.elnuevo_digital_access {
+    width: 451px;
+    font: normal normal bold 20px/30px Noto Sans;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #262629;
+    text-align: center;
+    margin-left: 24px;
+    margin-bottom: 30.87px;
+
+}
+
+
+.elnuevo_button {
+    width: 262px;
+    height: 50px;
+    background: #212B6B 0% 0% no-repeat padding-box;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 119px;
+    margin-bottom: 25px;
+
+}
+
+.elnuevo_button>span {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 36px;
+    font: normal normal bold 18px/36px Noto Sans;
+
+}
+
+.elnuevo_button:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.elnuevo_oferta {
+    width: 359px;
+    height: 19px;
+    letter-spacing: -0.01px;
+    color: #262629;
+    text-align: center;
+    font: normal normal bold 14px/26px Noto Sans;
+    opacity: 1;
+    font-size: 14px;
+    padding-left: 71px;
+}
+
+@media screen and (max-width:300px) and (max-height:400px) {
+    .elnuevo_popup {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+
+    .elnuevo_modal {
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elnuevo_cerca_button {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 5px;
+        font-weight: bold;
+        color: #757575;
+        letter-spacing: 0.18px;
+        line-height: 26px;
+        width: 51px;
+        height: 17px;
+        font-family: 'Noto Sans', 'Sans Serif';
+        padding-top: 13.77px;
+        margin-top: 0%;
+    }
+
+    .elnuevo_logo {
+        height: 12.58px;
+        margin: 0 auto;
+        margin-top: 0px;
+        filter: brightness(0) invert(0);
+        padding-top: 20px;
+    }
+
+    .elnuevo_obtenga {
+        height: 27px;
+        width: 274px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+        color: #262629;
+        margin-left: 13px;
+        padding-left: 0px;
+        padding-top: 26.66px;
+        opacity: 1;
+        font: normal normal normal 16px/28px Noto Sans;
+        padding-bottom: 4px;
+    }
+
+    .elnuevo_price {
+        letter-spacing: -0.72px;
+        text-align: center;
+        color: #212B6B;
+        font: normal normal bold 36px/46px Noto Sans;
+        opacity: 1;
+        height: 49px;
+        width: 300px;
+        padding-top: 15px;
+        margin: 0px;
+
+    }
+
+    .elnuevo_digital_access {
+        width: 220px;
+        height: 63px;
+        font: normal normal bold 14px/22px Noto Sans;
+        text-align: center;
+        letter-spacing: -0.14px;
+        color: #262629;
+        text-align: center;
+        margin-left: 40px;
+        margin-bottom: 26.74px;
+        padding-top: 10px;
+
+    }
+
+    .elnuevo_button {
+        width: 200px;
+        height: 40px;
+        background: #212B6B 0% 0% no-repeat padding-box;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        text-decoration: none;
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 51px;
+        margin-bottom: 22.24px;
+
+    }
+
+    .elnuevo_button>span {
+        text-align: center;
+        vertical-align: middle;
+        margin: auto;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        line-height: 36px;
+        font: normal normal bold 14px/36px Noto Sans;
+        opacity: 1;
+
+    }
+
+    .elnuevo_button:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    .elnuevo_oferta {
+        width: 219px;
+        height: 35px;
+        letter-spacing: 0.12px;
+        color: #262629;
+        text-align: center;
+        font: normal normal bold 12px/18px Noto Sans;
+        opacity: 1;
+        font-size: 12px;
+        padding-left: 40px;
+
+    }
+}
